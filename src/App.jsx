@@ -105,17 +105,17 @@ function App() {
         <div className="about-content">
 
           <p>
-            I am a B.Tech Electronics and Telecommunication graduate with a
-            strong interest in software development and full-stack application
-            development. I enjoy solving real-world problems through
-            technology and building practical applications.
+            I am a B.Tech Electronics and Telecommunication Engineer with
+            hands-on experience in IT, software development, AI/ML, embedded
+            systems, IoT and industrial automation.
           </p>
 
           <p>
-            My technical interests include Java, Spring Boot, React.js,
-            JavaScript, Python, MySQL, REST APIs and AI/ML. I am interested in
-            software development roles where I can apply my technical skills
-            and continue learning new technologies.
+            My technical interests include Java, Full Stack Java Development,
+            Spring Boot, React.js, JavaScript, Python, SQL, REST APIs,
+            Machine Learning, Generative AI and Data Structures & Algorithms.
+            I enjoy building practical software solutions and applying
+            technology to real-world problems.
           </p>
 
         </div>
@@ -142,48 +142,78 @@ function App() {
         <div className="skills-grid">
 
           <div className="skill-card">
-            <h3>Java</h3>
-            <p>Core Java, OOPs, Collections and Exception Handling</p>
+            <h3>Programming</h3>
+            <p>
+              Python, Java, C, C++, JavaScript, HTML, CSS, SQL
+            </p>
           </div>
 
           <div className="skill-card">
-            <h3>Spring Boot</h3>
-            <p>REST APIs, Spring Data JPA and backend development</p>
+            <h3>Full Stack Java</h3>
+            <p>
+              Core Java, OOPs, Data Structures & Algorithms, Spring,
+              Spring Boot, Hibernate, JDBC, Maven
+            </p>
           </div>
 
           <div className="skill-card">
-            <h3>React.js</h3>
-            <p>Component-based frontend and responsive interfaces</p>
+            <h3>Frontend</h3>
+            <p>
+              React.js, JavaScript, HTML, CSS, Responsive Web Development
+            </p>
           </div>
 
           <div className="skill-card">
-            <h3>JavaScript</h3>
-            <p>Frontend functionality and API integration</p>
+            <h3>Backend & APIs</h3>
+            <p>
+              Spring Boot, REST APIs, Flask, JDBC, MySQL, MongoDB
+            </p>
           </div>
 
           <div className="skill-card">
-            <h3>Python</h3>
-            <p>AI/ML, automation and application development</p>
+            <h3>AI & Machine Learning</h3>
+            <p>
+              Machine Learning, Deep Learning, NLP, Computer Vision,
+              Generative AI, LLMs, Prompt Engineering
+            </p>
           </div>
 
           <div className="skill-card">
-            <h3>MySQL</h3>
-            <p>Database design, SQL queries and data management</p>
+            <h3>AI Tools & Libraries</h3>
+            <p>
+              TensorFlow, OpenCV, MediaPipe, Librosa, Pandas, NumPy
+            </p>
           </div>
 
           <div className="skill-card">
-            <h3>REST APIs</h3>
-            <p>API development and frontend-backend integration</p>
+            <h3>Embedded & IoT</h3>
+            <p>
+              Embedded C, Arduino, Raspberry Pi, Microcontrollers,
+              Sensors, IoT
+            </p>
           </div>
 
           <div className="skill-card">
-            <h3>HTML & CSS</h3>
-            <p>Responsive web page structure and styling</p>
+            <h3>Industrial Automation</h3>
+            <p>
+              PLC, SCADA, VFD, HMI, Industrial Automation,
+              Electrical Maintenance, Troubleshooting
+            </p>
           </div>
 
           <div className="skill-card">
-            <h3>Git & GitHub</h3>
-            <p>Version control and project management</p>
+            <h3>Core Electronics</h3>
+            <p>
+              Digital Electronics, Communication Systems, PCB Design,
+              Signal Processing
+            </p>
+          </div>
+
+          <div className="skill-card">
+            <h3>Tools & Platforms</h3>
+            <p>
+              Git, GitHub, VS Code, MATLAB, Arduino IDE
+            </p>
           </div>
 
         </div>
@@ -208,6 +238,8 @@ function App() {
         </div>
 
 
+        {/* Felix IT Systems */}
+
         <div className="experience-card">
 
           <div className="experience-top">
@@ -215,7 +247,45 @@ function App() {
             <div>
 
               <h3>
-                Project Trainee – Electrical Department
+                Full Stack Java Development
+              </h3>
+
+              <h4>
+                Felix IT Systems
+              </h4>
+
+            </div>
+
+            <span>
+              Jun 2026 – Present
+            </span>
+
+          </div>
+
+          <p>
+            Developing full-stack applications using Java, React.js, HTML,
+            CSS and JavaScript with hands-on application development work.
+          </p>
+
+          <p>
+            Working with Spring, Spring Boot, Hibernate, JDBC, Maven and
+            MySQL while applying OOP, REST APIs, debugging and responsive
+            web development concepts.
+          </p>
+
+        </div>
+
+
+        {/* Biofics */}
+
+        <div className="experience-card">
+
+          <div className="experience-top">
+
+            <div>
+
+              <h3>
+                Graduate Engineer Trainee (GET) – Junior PLC & SCADA Operator
               </h3>
 
               <h4>
@@ -225,18 +295,61 @@ function App() {
             </div>
 
             <span>
-              2026
+              Apr 2026 – Aug 2026
             </span>
 
           </div>
 
           <p>
-            Worked on electrical systems, installation and commissioning,
-            automation-related systems and industrial equipment.
+            Operated PLC, SCADA and VFD based systems with preventive
+            maintenance, troubleshooting and industrial automation support.
+          </p>
+
+          <p>
+            Supported commissioning, electrical maintenance and process
+            optimization activities.
           </p>
 
         </div>
 
+
+        {/* Ather Energy */}
+
+        <div className="experience-card">
+
+          <div className="experience-top">
+
+            <div>
+
+              <h3>
+                Junior Embedded Developer Intern
+              </h3>
+
+              <h4>
+                Ather Energy
+              </h4>
+
+            </div>
+
+            <span>
+              Sept 2025 – Apr 2026
+            </span>
+
+          </div>
+
+          <p>
+            Worked on Embedded C, Arduino and microcontroller interfacing
+            for embedded systems development.
+          </p>
+
+          <p>
+            Performed firmware debugging, hardware testing and validation.
+          </p>
+
+        </div>
+
+
+        {/* AICT Plasmid */}
 
         <div className="experience-card">
 
@@ -249,21 +362,20 @@ function App() {
               </h3>
 
               <h4>
-                Felix IT Systems
+                AICT Plasmid
               </h4>
 
             </div>
 
             <span>
-              2026
+              Jan 2025 – Sept 2025
             </span>
 
           </div>
 
           <p>
-            Developed responsive web applications using HTML, CSS and
-            JavaScript while improving debugging, development and frontend
-            optimization skills.
+            Built responsive web pages using HTML, CSS and JavaScript while
+            improving website responsiveness and user experience.
           </p>
 
         </div>
@@ -427,54 +539,26 @@ function App() {
             <div className="project-header">
 
               <h3>
-                Smart Irrigation System
+                Smart Irrigation System using IoT
               </h3>
 
               <span>
-                IoT Project
+                Sep 2024 – Jan 2025
               </span>
 
             </div>
 
             <p>
-              Developed an IoT-based irrigation system using sensors and
-              Arduino to automate irrigation and reduce unnecessary water
-              usage.
+              Developed an automated irrigation system using Raspberry Pi,
+              sensors and IoT monitoring to optimize water usage.
             </p>
 
             <div className="project-tech">
-              Arduino · IoT · Sensors
+              Raspberry Pi · IoT · Sensors
             </div>
 
           </div>
 
-
-          {/* Solar Tracking */}
-
-          <div className="project-card">
-
-            <div className="project-header">
-
-              <h3>
-                Solar Tracking System
-              </h3>
-
-              <span>
-                Electronics Project
-              </span>
-
-            </div>
-
-            <p>
-              Designed a dual-axis solar tracking system to automatically
-              adjust the panel position according to the direction of sunlight.
-            </p>
-
-            <div className="project-tech">
-              Arduino · Sensors · Embedded Systems
-            </div>
-
-          </div>
 
         </div>
 
@@ -497,6 +581,8 @@ function App() {
 
         </div>
 
+
+        {/* B.Tech */}
 
         <div className="education-card">
 
@@ -525,6 +611,176 @@ function App() {
               </span>
 
             </div>
+
+          </div>
+
+        </div>
+
+
+        {/* HSC */}
+
+        <div className="education-card">
+
+          <div className="education-content">
+
+            <h3>
+              Higher Secondary Certificate (Science)
+            </h3>
+
+            <h4>
+              D.R. Arts Commerce & Science Jr. College
+            </h4>
+
+            <p>
+              Nandurbar
+            </p>
+
+            <div className="education-details">
+
+              <span>
+                2020 – 2022
+              </span>
+
+              <span>
+                81.5%
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        {/* SSC */}
+
+        <div className="education-card">
+
+          <div className="education-content">
+
+            <h3>
+              Secondary School Certificate
+            </h3>
+
+            <h4>
+              S.A. Mission English Medium High School
+            </h4>
+
+            <p>
+              Nandurbar
+            </p>
+
+            <div className="education-details">
+
+              <span>
+                2010 – 2020
+              </span>
+
+              <span>
+                76.4%
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        {/* ================= CERTIFICATIONS ================= */}
+
+        <div className="section-heading">
+
+          <p className="section-tag">
+            CERTIFICATIONS
+          </p>
+
+          <h2>
+            Certifications
+          </h2>
+
+        </div>
+
+
+        <div className="education-card">
+
+          <div className="education-content">
+
+            <h3>
+              Cisco Networking Certification
+            </h3>
+
+            <p>
+              Cisco Networking Academy
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div className="education-card">
+
+          <div className="education-content">
+
+            <h3>
+              Web Development (Java)
+            </h3>
+
+            <p>
+              AICT Plasmid
+            </p>
+
+          </div>
+
+        </div>
+
+
+        {/* ================= EXTRACURRICULAR ================= */}
+
+        <div className="section-heading">
+
+          <p className="section-tag">
+            EXTRACURRICULAR
+          </p>
+
+          <h2>
+            Extracurricular Activities
+          </h2>
+
+        </div>
+
+
+        <div className="education-card">
+
+          <div className="education-content">
+
+            <h3>
+              Treasurer – Entesa Club
+            </h3>
+
+            <p>
+              ENTC Department — Managed departmental finances, event budgets
+              and resource allocation.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div className="education-card">
+
+          <div className="education-content">
+
+            <h3>
+              Member – IETE Students’ Chapter
+            </h3>
+
+            <p>
+              Organized technical workshops, seminars and industry interaction
+              activities.
+            </p>
 
           </div>
 
@@ -571,6 +827,7 @@ function App() {
 
             <div>
               <h3>Email</h3>
+
               <p>
                 mihirdatir424@gmail.com
               </p>
@@ -592,6 +849,7 @@ function App() {
 
             <div>
               <h3>Phone</h3>
+
               <p>
                 +91 9822517679
               </p>
@@ -615,6 +873,7 @@ function App() {
 
             <div>
               <h3>LinkedIn</h3>
+
               <p>
                 linkedin.com/in/mihir-datir-b93b33212
               </p>
@@ -638,6 +897,7 @@ function App() {
 
             <div>
               <h3>GitHub</h3>
+
               <p>
                 github.com/mihirdatir122004
               </p>
