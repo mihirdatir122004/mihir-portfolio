@@ -521,7 +521,7 @@ function App() {
               </span>
 
               <span>
-                CGPA: 7.03 / 10
+                CGPA: 8.34 / 10
               </span>
 
             </div>
